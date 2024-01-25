@@ -1,0 +1,65 @@
+html {
+    background: linear-gradient(177.52deg, #FA687F 5%, #BECA86 70%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+h2, footer {
+    font-family: 'Nunito';
+    font-weight: 500;
+}
+
+footer {
+    margin-top: 0.5em;
+}
+
+button {
+    border: none;
+}
+
+.itens-comprados {
+text-decoration: line-through;
+}
+
+.borda-lista {
+    border-bottom: dotted 2px #F35659;
+}
+
+input:disabled {
+    border: none;
+    background: none;
+    color: black;
+}
+
+input {
+    border: none;
+    background: none;
+    color: #F35659;
+}
+
+.titulo {
+    color: #728938;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+.botao-salvar {
+    margin-top: 1em;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color: white;
+    background-color: #90AC4A;
+    border: 1px solid;
+}
+
+.checkbox input[type="checkbox"].is-danger:checked {
+    background-color: #F35659;
+    border-color: #F35659;
+  }
